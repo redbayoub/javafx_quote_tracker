@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quotetracker.MainView.MainViewFXMLController">
+   <children>
+      <JFXComboBox fx:id="refreshInter" layoutX="166.0" layoutY="14.0" onAction="#changeRefInter" prefHeight="26.0" prefWidth="154.0" />
+      <Label layoutX="32.0" layoutY="19.0" prefHeight="16.0" prefWidth="125.0" text="Refresh interval" />
+      <JFXListView fx:id="symbolsList" layoutX="40.0" layoutY="63.0" prefHeight="375.0" prefWidth="597.0" stylesheets="@../resources/cssFiles/listStyle.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Quote Tracker.jnlp">
+  <information>
+    <title>Quote Tracker</title>
+    <vendor>redayoub</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib/jfoenix-8.jar" size="2211776" download="eager" />
+    <jar href="lib/json-20180130.jar" size="62116" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Quote Tracker" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="quotetracker.main.QuoteTracker"  name="Quote Tracker" />
+  <update check="always"/>
+</jnlp>
