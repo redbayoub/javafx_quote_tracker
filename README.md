@@ -10,12 +10,6 @@ A JavaFX app that track qoutes in the market for users and allows the users to s
 
 ## Screenshots  
 Later
-{::comment}
-![main_view](screenshots/main_view.png)
-![menu](screenshots/menu.png)
-![create feed](screenshots/create_feed.png)
-![create view edit delete message](screenshots/create_view_edit_delete_message.png)
-{:/comment}
 
 ## To run
 1. Download the release file  
