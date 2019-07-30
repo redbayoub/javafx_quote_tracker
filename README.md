@@ -15,7 +15,7 @@ Later
 ![menu](screenshots/menu.png)
 ![create feed](screenshots/create_feed.png)
 ![create view edit delete message](screenshots/create_view_edit_delete_message.png)
-{::comment}
+{:/comment}
 
 ## To run
 1. Download the release file  
